@@ -3,6 +3,12 @@
 		"imageurl" : "images/icon.png",
 		"description":"Dummy Tesxt",
 		"title": "Huaaah",
-		"page":"https://cdbbd3f1.ngrok.io/#/products/APL"
+		"page":"http://cdbbd3f1.ngrok.io/#/products/APL"
+	},
+	{
+		"imageurl" : "images/icon.png",
+		"description":"Dummy Tesxt",
+		"title": "Huaaah",
+		"page":"http://cdbbd3f1.ngrok.io/#/products/APL"
 	}
 ]
