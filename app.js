@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use('(/api)?/', routes);
-
+app.use(express.static(__dirname));
 app.use((req, res, next) => {
   debugger;
   var err;
