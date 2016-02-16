@@ -16,11 +16,16 @@
     "express": "4.13.3",
     "jsonfile": "^2.2.3",
     "lodash": "^3.10.1",
+    "mocha": "^2.4.5",
     "node-gcm": "^0.14.0",
-    "npm": "^3.7.2"
+    "npm": "^3.7.2",
+    "supertest": "^1.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.6",
     "eslint-plugin-react": "^3.11.2"
+  },
+  "engines": {
+    "node": "4.2.4"
   }
 }
