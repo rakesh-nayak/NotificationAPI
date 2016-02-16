@@ -1,0 +1,5 @@
+deployment:
+  development:
+    branch: master
+    heroku:
+      appname: hackit-notificationapi
