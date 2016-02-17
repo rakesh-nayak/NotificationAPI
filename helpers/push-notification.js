@@ -12,9 +12,7 @@ export function pushNotification(tokens){
 
     sender.send(message, tokens, retry_times, function(err, response){
       if(err) {
-        console.error(err);
       } else {
-       	console.log(response);
       }
     });
 }

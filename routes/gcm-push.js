@@ -13,10 +13,6 @@ router.get('/', function(req, res){
     var sender = new gcm.Sender('AIzaSyD34Nr8J086H638zaP3to3AszAq8s0DNSQ'); //create a new sender
     var message = new gcm.Message(); //create a new message
 
-    message.addData('title', 'Hello');
-    message.addData('message', 'Hello this is a push notification');
-    message.addData('sound', 'notification');
-
     message.collapseKey = 'testing'; //grouping messages
     message.delayWhileIdle = true; //delay sending while receiving device is offline
     message.timeToLive = 3; //the number of seconds to keep the message on the server if the device is offline

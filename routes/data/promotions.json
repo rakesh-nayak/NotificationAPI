@@ -1,14 +1,15 @@
 [
-	{
-		"imageurl" : "images/icon.png",
-		"description":"Dummy Tesxt",
-		"title": "Huaaah",
-		"page":"http://cdbbd3f1.ngrok.io/#/products/APL"
+
+		{
+		"imageurl" : "img/products/AVC.jpg",
+		"description":"Buy 5 Avacodo with the price of 1",
+		"title": "Avacodo on Promotional",
+		"page":"/#/products/AVC"
 	},
 	{
 		"imageurl" : "img/products/APL.jpg",
-		"description":"Priyabrata Requested",
-		"title": "Huaaah",
-		"page":"http://cdbbd3f1.ngrok.io/#/products/APL"
+		"description":"Special offer on Apples",
+		"title": "Apple on Promotion",
+		"page":"/#/products/APL"
 	}
 ]

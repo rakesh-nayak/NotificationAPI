@@ -37,7 +37,9 @@ export function getDeviceTokens() {
 		let tokens =[];
 		if(data.length > 0){
 			data.map(item=>{
-				tokens.push(item.deviceToken);
+				if(item.deviceToken!=''){
+					tokens.push(item.deviceToken);
+				}
 			});
 		}
 		if(tokens.length > 0){
